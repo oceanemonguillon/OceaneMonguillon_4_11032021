@@ -444,6 +444,27 @@ nav .caret {
     margin-top: 10px;
     margin-bottom: 40px;
 }
+.citation{
+    width: 85%;
+    margin: auto;
+    margin-top: 8%;
+}
+
+blockquote {
+    border: none;
+}
+
+blockquote p{
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #575757;
+    font-size: 20px;
+}
+
+blockquote cite{
+    font-size: 15px;
+    color: #575757;
+}
 
 .btn {
     margin: 0 5px 5px 0;
@@ -707,6 +728,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    text-align: center;
 }
 
 h3 {
