@@ -27,6 +27,10 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.logo{
+    width: 100px;
+    height: 100px;
+}
 .bloc {
     width: 100%;
     clear: both;
