@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+a:focus, img:focus, form:focus, button:focus {
+    border: 2px solid black;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -14,7 +18,7 @@ button {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     cursor: pointer;
 }
 
@@ -254,6 +258,7 @@ a:hover {
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -815,6 +820,7 @@ h4 {
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
+    text-decoration: underline;
 }
 
 .ltc-black {
