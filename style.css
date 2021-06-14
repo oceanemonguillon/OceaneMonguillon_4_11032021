@@ -541,6 +541,11 @@ button {
     box-shadow: none;
 }
 
+.text-size{
+    margin-top: 5%;
+    width: 100%;
+}
+
 .scrollToTop {
     width: 40px;
     height: 40px;
